@@ -396,7 +396,7 @@
 
 						@media (max-width: 991px) {
 							clip-path: polygon(100% 5%, 5% 100%, 100% 100%);
-							bottom: 30%;
+							bottom: 20%;
 						}
 					}
 
@@ -407,13 +407,13 @@
 
 						a {
 							color: #f46f30;
-							bottom: 10%;
+							bottom: 20%;
 							left: 5%;
 						}
 
 						@media (max-width: 991px) {
 							clip-path: polygon(95% 100%, 0 5%, 0 100%);
-							bottom: 30%;
+							bottom: 20%;
 						}
 					}
 
@@ -551,6 +551,11 @@
 				backdrop-filter: blur(20px);
 				-webkit-backdrop-filter: blur(20px);
 
+        @media (max-width: 991px) {
+          width: 90%;
+          padding: 0;
+        }
+
 				.gmn__content {
 					padding: 1em;
 					text-align: center;
@@ -598,6 +603,11 @@
 				box-shadow: 3px 3px 5px 5px rgba(0, 0, 0, 0.5);
 				backdrop-filter: blur(20px);
 				-webkit-backdrop-filter: blur(20px);
+
+        @media (max-width: 991px) {
+          width: 90%;
+          padding: 0;
+        }
 
 				.learnit__content {
 					padding: 1em;
@@ -647,6 +657,15 @@
 				backdrop-filter: blur(20px);
 				-webkit-backdrop-filter: blur(20px);
 
+        @media (max-width: 991px) {
+          width: 90%;
+          padding: 0;
+
+          ol {
+            padding-inline-start: 0;
+          }
+        }
+
 				.hos__content {
 					padding: 1em;
 					text-align: left;
@@ -694,6 +713,11 @@
 				box-shadow: 3px 3px 5px 5px rgba(0, 0, 0, 0.5);
 				backdrop-filter: blur(20px);
 				-webkit-backdrop-filter: blur(20px);
+
+        @media (max-width: 991px) {
+          width: 90%;
+          padding: 0;
+        }
 
 				.geok__content {
 					padding: 1em;
@@ -762,6 +786,11 @@
 				backdrop-filter: blur(20px);
 				-webkit-backdrop-filter: blur(20px);
 
+        @media (max-width: 991px) {
+          width: 90%;
+          padding: 0;
+        }
+
 				.matrix__content {
 					padding: 1em;
 					text-align: center;
@@ -828,6 +857,11 @@
 				box-shadow: 3px 3px 5px 5px rgba(0, 0, 0, 0.5);
 				backdrop-filter: blur(20px);
 				-webkit-backdrop-filter: blur(20px);
+
+        @media (max-width: 991px) {
+          width: 90%;
+          padding: 0;
+        }
 
 				.okosv__content {
 					padding: 1em;
@@ -896,6 +930,11 @@
 				backdrop-filter: blur(20px);
 				-webkit-backdrop-filter: blur(20px);
 
+        @media (max-width: 991px) {
+          width: 90%;
+          padding: 0;
+        }
+
 				.tours__content {
 					padding: 1em;
 					text-align: center;
@@ -963,6 +1002,11 @@
 				backdrop-filter: blur(20px);
 				-webkit-backdrop-filter: blur(20px);
 
+        @media (max-width: 991px) {
+          width: 90%;
+          padding: 0;
+        }
+
 				.ictyskft__content {
 					padding: 1em;
 					text-align: center;
@@ -1029,6 +1073,11 @@
 				box-shadow: 3px 3px 5px 5px rgba(0, 0, 0, 0.5);
 				backdrop-filter: blur(20px);
 				-webkit-backdrop-filter: blur(20px);
+
+        @media (max-width: 991px) {
+          width: 90%;
+          padding: 0;
+        }
 
 				.map__content {
 					padding: 1em;
@@ -1367,6 +1416,11 @@
       h2 {
         font-size: 3rem;
         text-shadow: 3px 3px 5px #000;
+
+        @media (max-width: 991px) {
+          font-size: 2rem;
+          text-align: center;
+        }
       }
 
       p {
@@ -2041,6 +2095,12 @@
 					left: 10px;
 					bottom: 50px;
 					display: flex;
+          flex-wrap: wrap;
+
+          @media (max-width: 991px)  {
+            left: -10px;
+            bottom: 0px;
+          }
 
 					li {
 						list-style-type: none;
